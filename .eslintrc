@@ -1,4 +1,8 @@
 {
+  "env": {
+    "es2021": true,
+    "node": true
+  },
   "extends": [
     "eslint:recommended",
     "plugin:react/recommended",
@@ -27,7 +31,7 @@
         "args": "after-used",
         "ignoreRestSiblings": true,
         "argsIgnorePattern": "^_"
-      },
+      }
     ],
     "react/react-in-jsx-scope": "off"
   }
